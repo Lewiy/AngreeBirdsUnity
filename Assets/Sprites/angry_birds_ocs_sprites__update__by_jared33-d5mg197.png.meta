@@ -1,0 +1,2264 @@
+fileFormatVersion: 2
+guid: 85aec2e11da99d141a70371bdb05d889
+timeCreated: 1509290492
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: angry_birds_ocs_sprites__update__by_jared33-d5mg197_0
+    21300002: angry_birds_ocs_sprites__update__by_jared33-d5mg197_1
+    21300004: angry_birds_ocs_sprites__update__by_jared33-d5mg197_2
+    21300006: angry_birds_ocs_sprites__update__by_jared33-d5mg197_3
+    21300008: angry_birds_ocs_sprites__update__by_jared33-d5mg197_4
+    21300010: angry_birds_ocs_sprites__update__by_jared33-d5mg197_5
+    21300012: angry_birds_ocs_sprites__update__by_jared33-d5mg197_6
+    21300014: angry_birds_ocs_sprites__update__by_jared33-d5mg197_7
+    21300016: angry_birds_ocs_sprites__update__by_jared33-d5mg197_8
+    21300018: angry_birds_ocs_sprites__update__by_jared33-d5mg197_9
+    21300020: angry_birds_ocs_sprites__update__by_jared33-d5mg197_10
+    21300022: angry_birds_ocs_sprites__update__by_jared33-d5mg197_11
+    21300024: angry_birds_ocs_sprites__update__by_jared33-d5mg197_12
+    21300026: angry_birds_ocs_sprites__update__by_jared33-d5mg197_13
+    21300028: angry_birds_ocs_sprites__update__by_jared33-d5mg197_14
+    21300030: angry_birds_ocs_sprites__update__by_jared33-d5mg197_15
+    21300032: angry_birds_ocs_sprites__update__by_jared33-d5mg197_16
+    21300034: angry_birds_ocs_sprites__update__by_jared33-d5mg197_17
+    21300036: angry_birds_ocs_sprites__update__by_jared33-d5mg197_18
+    21300038: angry_birds_ocs_sprites__update__by_jared33-d5mg197_19
+    21300040: angry_birds_ocs_sprites__update__by_jared33-d5mg197_20
+    21300042: angry_birds_ocs_sprites__update__by_jared33-d5mg197_21
+    21300044: angry_birds_ocs_sprites__update__by_jared33-d5mg197_22
+    21300046: angry_birds_ocs_sprites__update__by_jared33-d5mg197_23
+    21300048: angry_birds_ocs_sprites__update__by_jared33-d5mg197_24
+    21300050: angry_birds_ocs_sprites__update__by_jared33-d5mg197_25
+    21300052: angry_birds_ocs_sprites__update__by_jared33-d5mg197_26
+    21300054: angry_birds_ocs_sprites__update__by_jared33-d5mg197_27
+    21300056: angry_birds_ocs_sprites__update__by_jared33-d5mg197_28
+    21300058: angry_birds_ocs_sprites__update__by_jared33-d5mg197_29
+    21300060: angry_birds_ocs_sprites__update__by_jared33-d5mg197_30
+    21300062: angry_birds_ocs_sprites__update__by_jared33-d5mg197_31
+    21300064: angry_birds_ocs_sprites__update__by_jared33-d5mg197_32
+    21300066: angry_birds_ocs_sprites__update__by_jared33-d5mg197_33
+    21300068: angry_birds_ocs_sprites__update__by_jared33-d5mg197_34
+    21300070: angry_birds_ocs_sprites__update__by_jared33-d5mg197_35
+    21300072: angry_birds_ocs_sprites__update__by_jared33-d5mg197_36
+    21300074: angry_birds_ocs_sprites__update__by_jared33-d5mg197_37
+    21300076: angry_birds_ocs_sprites__update__by_jared33-d5mg197_38
+    21300078: angry_birds_ocs_sprites__update__by_jared33-d5mg197_39
+    21300080: angry_birds_ocs_sprites__update__by_jared33-d5mg197_40
+    21300082: angry_birds_ocs_sprites__update__by_jared33-d5mg197_41
+    21300084: angry_birds_ocs_sprites__update__by_jared33-d5mg197_42
+    21300086: angry_birds_ocs_sprites__update__by_jared33-d5mg197_43
+    21300088: angry_birds_ocs_sprites__update__by_jared33-d5mg197_44
+    21300090: angry_birds_ocs_sprites__update__by_jared33-d5mg197_45
+    21300092: angry_birds_ocs_sprites__update__by_jared33-d5mg197_46
+    21300094: angry_birds_ocs_sprites__update__by_jared33-d5mg197_47
+    21300096: angry_birds_ocs_sprites__update__by_jared33-d5mg197_48
+    21300098: angry_birds_ocs_sprites__update__by_jared33-d5mg197_49
+    21300100: angry_birds_ocs_sprites__update__by_jared33-d5mg197_50
+    21300102: angry_birds_ocs_sprites__update__by_jared33-d5mg197_51
+    21300104: angry_birds_ocs_sprites__update__by_jared33-d5mg197_52
+    21300106: angry_birds_ocs_sprites__update__by_jared33-d5mg197_53
+    21300108: angry_birds_ocs_sprites__update__by_jared33-d5mg197_54
+    21300110: angry_birds_ocs_sprites__update__by_jared33-d5mg197_55
+    21300112: angry_birds_ocs_sprites__update__by_jared33-d5mg197_56
+    21300114: angry_birds_ocs_sprites__update__by_jared33-d5mg197_57
+    21300116: angry_birds_ocs_sprites__update__by_jared33-d5mg197_58
+    21300118: angry_birds_ocs_sprites__update__by_jared33-d5mg197_59
+    21300120: angry_birds_ocs_sprites__update__by_jared33-d5mg197_60
+    21300122: angry_birds_ocs_sprites__update__by_jared33-d5mg197_61
+    21300124: angry_birds_ocs_sprites__update__by_jared33-d5mg197_62
+    21300126: angry_birds_ocs_sprites__update__by_jared33-d5mg197_63
+    21300128: angry_birds_ocs_sprites__update__by_jared33-d5mg197_64
+    21300130: angry_birds_ocs_sprites__update__by_jared33-d5mg197_65
+    21300132: angry_birds_ocs_sprites__update__by_jared33-d5mg197_66
+    21300134: angry_birds_ocs_sprites__update__by_jared33-d5mg197_67
+    21300136: angry_birds_ocs_sprites__update__by_jared33-d5mg197_68
+    21300138: angry_birds_ocs_sprites__update__by_jared33-d5mg197_69
+    21300140: angry_birds_ocs_sprites__update__by_jared33-d5mg197_70
+    21300142: angry_birds_ocs_sprites__update__by_jared33-d5mg197_71
+    21300144: angry_birds_ocs_sprites__update__by_jared33-d5mg197_72
+    21300146: angry_birds_ocs_sprites__update__by_jared33-d5mg197_73
+    21300148: angry_birds_ocs_sprites__update__by_jared33-d5mg197_74
+    21300150: angry_birds_ocs_sprites__update__by_jared33-d5mg197_75
+    21300152: angry_birds_ocs_sprites__update__by_jared33-d5mg197_76
+    21300154: angry_birds_ocs_sprites__update__by_jared33-d5mg197_77
+    21300156: angry_birds_ocs_sprites__update__by_jared33-d5mg197_78
+    21300158: angry_birds_ocs_sprites__update__by_jared33-d5mg197_79
+    21300160: angry_birds_ocs_sprites__update__by_jared33-d5mg197_80
+    21300162: angry_birds_ocs_sprites__update__by_jared33-d5mg197_81
+    21300164: angry_birds_ocs_sprites__update__by_jared33-d5mg197_82
+    21300166: angry_birds_ocs_sprites__update__by_jared33-d5mg197_83
+    21300168: angry_birds_ocs_sprites__update__by_jared33-d5mg197_84
+    21300170: angry_birds_ocs_sprites__update__by_jared33-d5mg197_85
+    21300172: angry_birds_ocs_sprites__update__by_jared33-d5mg197_86
+    21300174: angry_birds_ocs_sprites__update__by_jared33-d5mg197_87
+    21300176: angry_birds_ocs_sprites__update__by_jared33-d5mg197_88
+    21300178: angry_birds_ocs_sprites__update__by_jared33-d5mg197_89
+    21300180: angry_birds_ocs_sprites__update__by_jared33-d5mg197_90
+    21300182: angry_birds_ocs_sprites__update__by_jared33-d5mg197_91
+    21300184: angry_birds_ocs_sprites__update__by_jared33-d5mg197_92
+    21300186: angry_birds_ocs_sprites__update__by_jared33-d5mg197_93
+    21300188: angry_birds_ocs_sprites__update__by_jared33-d5mg197_94
+    21300190: angry_birds_ocs_sprites__update__by_jared33-d5mg197_95
+    21300192: angry_birds_ocs_sprites__update__by_jared33-d5mg197_96
+    21300194: angry_birds_ocs_sprites__update__by_jared33-d5mg197_97
+    21300196: angry_birds_ocs_sprites__update__by_jared33-d5mg197_98
+    21300198: angry_birds_ocs_sprites__update__by_jared33-d5mg197_99
+    21300200: angry_birds_ocs_sprites__update__by_jared33-d5mg197_100
+    21300202: angry_birds_ocs_sprites__update__by_jared33-d5mg197_101
+    21300204: angry_birds_ocs_sprites__update__by_jared33-d5mg197_102
+    21300206: angry_birds_ocs_sprites__update__by_jared33-d5mg197_103
+    21300208: angry_birds_ocs_sprites__update__by_jared33-d5mg197_104
+    21300210: angry_birds_ocs_sprites__update__by_jared33-d5mg197_105
+    21300212: angry_birds_ocs_sprites__update__by_jared33-d5mg197_106
+    21300214: angry_birds_ocs_sprites__update__by_jared33-d5mg197_107
+    21300216: angry_birds_ocs_sprites__update__by_jared33-d5mg197_108
+    21300218: angry_birds_ocs_sprites__update__by_jared33-d5mg197_109
+    21300220: angry_birds_ocs_sprites__update__by_jared33-d5mg197_110
+    21300222: angry_birds_ocs_sprites__update__by_jared33-d5mg197_111
+    21300224: angry_birds_ocs_sprites__update__by_jared33-d5mg197_112
+    21300226: angry_birds_ocs_sprites__update__by_jared33-d5mg197_113
+    21300228: angry_birds_ocs_sprites__update__by_jared33-d5mg197_114
+    21300230: angry_birds_ocs_sprites__update__by_jared33-d5mg197_115
+    21300232: angry_birds_ocs_sprites__update__by_jared33-d5mg197_116
+    21300234: angry_birds_ocs_sprites__update__by_jared33-d5mg197_117
+    21300236: angry_birds_ocs_sprites__update__by_jared33-d5mg197_118
+    21300238: angry_birds_ocs_sprites__update__by_jared33-d5mg197_119
+    21300240: angry_birds_ocs_sprites__update__by_jared33-d5mg197_120
+    21300242: angry_birds_ocs_sprites__update__by_jared33-d5mg197_121
+    21300244: angry_birds_ocs_sprites__update__by_jared33-d5mg197_122
+    21300246: angry_birds_ocs_sprites__update__by_jared33-d5mg197_123
+    21300248: angry_birds_ocs_sprites__update__by_jared33-d5mg197_124
+    21300250: angry_birds_ocs_sprites__update__by_jared33-d5mg197_125
+    21300252: angry_birds_ocs_sprites__update__by_jared33-d5mg197_126
+    21300254: angry_birds_ocs_sprites__update__by_jared33-d5mg197_127
+    21300256: angry_birds_ocs_sprites__update__by_jared33-d5mg197_128
+    21300258: angry_birds_ocs_sprites__update__by_jared33-d5mg197_129
+    21300260: angry_birds_ocs_sprites__update__by_jared33-d5mg197_130
+    21300262: angry_birds_ocs_sprites__update__by_jared33-d5mg197_131
+    21300264: angry_birds_ocs_sprites__update__by_jared33-d5mg197_132
+    21300266: angry_birds_ocs_sprites__update__by_jared33-d5mg197_133
+    21300268: angry_birds_ocs_sprites__update__by_jared33-d5mg197_134
+    21300270: angry_birds_ocs_sprites__update__by_jared33-d5mg197_135
+    21300272: angry_birds_ocs_sprites__update__by_jared33-d5mg197_136
+    21300274: angry_birds_ocs_sprites__update__by_jared33-d5mg197_137
+    21300276: angry_birds_ocs_sprites__update__by_jared33-d5mg197_138
+    21300278: angry_birds_ocs_sprites__update__by_jared33-d5mg197_139
+    21300280: angry_birds_ocs_sprites__update__by_jared33-d5mg197_140
+    21300282: angry_birds_ocs_sprites__update__by_jared33-d5mg197_141
+    21300284: angry_birds_ocs_sprites__update__by_jared33-d5mg197_142
+    21300286: angry_birds_ocs_sprites__update__by_jared33-d5mg197_143
+    21300288: angry_birds_ocs_sprites__update__by_jared33-d5mg197_144
+    21300290: angry_birds_ocs_sprites__update__by_jared33-d5mg197_145
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2364
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2363
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2362
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2361
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2362
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2270
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2269
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2268
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2267
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2268
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2185
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2184
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2183
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2182
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2183
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2091
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2093
+        width: 97
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2091
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_18
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2090
+        width: 101
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2090
+        width: 107
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2015
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_21
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2013
+        width: 85
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2011
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2015
+        width: 81
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2014
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1917
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_26
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1918
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_27
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1918
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_28
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1918
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_29
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1920
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1821
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1822
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_32
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1822
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1822
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1824
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_35
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1733
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1733
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1730
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_38
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1733
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1731
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_40
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1663
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1697
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_42
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1662
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1696
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_44
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1663
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_45
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1662
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_46
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1662
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_47
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1660
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_48
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1694
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1582
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1581
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1580
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_52
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1579
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_53
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1580
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1501
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1500
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_56
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1499
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_57
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1498
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_58
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1499
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_59
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1423
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_60
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1422
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1421
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_62
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1420
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_63
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1421
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_64
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1341
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_65
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1340
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_66
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1339
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_67
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1338
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_68
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1339
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1246
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_70
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1245
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_71
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1244
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_72
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1243
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_73
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1244
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_74
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1177
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_75
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1176
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_76
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1175
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_77
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1174
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_78
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1175
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_79
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1089
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_80
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1088
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_81
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1087
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1086
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_83
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1087
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_84
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1021
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_85
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1055
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_86
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1020
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_87
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1054
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_88
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1021
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_89
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1020
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_90
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1020
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1018
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_92
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1052
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 947
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_94
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 946
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_95
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 945
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_96
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 945
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_97
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 945
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_98
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 849
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_99
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 849
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_100
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 853
+        width: 33
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_101
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 852
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_102
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 852
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_103
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 737
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_104
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 738
+        width: 75
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_105
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 741
+        width: 75
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_106
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 740
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_107
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 744
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_108
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 648
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_109
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 646
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_110
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 648
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_111
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 649
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_112
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 650
+        width: 100
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_113
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 531
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_114
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 532
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_115
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 531
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_116
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 453
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_117
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 451
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_118
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 454
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_119
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 455
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_120
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 456
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_121
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 363
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_122
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 361
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_123
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 364
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_124
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 365
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_125
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 366
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_126
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 279
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_127
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 278
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_128
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 277
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_129
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 276
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_130
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 277
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_131
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 200
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_132
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 199
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_133
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 198
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_134
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 197
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_135
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 198
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_136
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 97
+        width: 61
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_137
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 96
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_138
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 95
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_139
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 94
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_140
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 95
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_141
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 12
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_142
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 11
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_143
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 10
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_144
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 9
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angry_birds_ocs_sprites__update__by_jared33-d5mg197_145
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 10
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
