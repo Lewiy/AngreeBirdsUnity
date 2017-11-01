@@ -143,8 +143,8 @@ public class SlingShot : MonoBehaviour
         //BirdToThrow.GetComponent<Rigidbody2D>().AddForce
         //    (new Vector2(v2.x, v2.y) * ThrowSpeed * distance * 300 * Time.deltaTime);
         //set the velocity
-        BirdToThrow.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x, velocity.y) * ThrowSpeed * distance;
-
+        BirdToThrow.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x, velocity.y) * BirdToThrow.GetComponent<Bird>().ThrowSpeed * distance;
+        Debug.Log("Throww Speed" + ThrowSpeed);
 
         //notify interested parties that the bird was thrown
         if (BirdThrown != null)
@@ -191,7 +191,7 @@ public class SlingShot : MonoBehaviour
         segments[0] = BirdToThrow.transform.position;
 
         // The initial velocity
-        Vector2 segVelocity = new Vector2(v2.x, v2.y) * ThrowSpeed * distance;
+        Vector2 segVelocity = new Vector2(v2.x, v2.y) * BirdToThrow.GetComponent<Bird>().ThrowSpeed * distance;
 
         float angle = Vector2.Angle(segVelocity, new Vector2(1, 0));
         float time = segmentScale / segVelocity.magnitude;
@@ -201,7 +201,9 @@ public class SlingShot : MonoBehaviour
             //y axis: spaceY = initialSpaceY + velocityY * time + 1/2 * accelerationY * time ^ 2
             //both (vector) space = initialSpace + velocity * time + 1/2 * acceleration * time ^ 2
             float time2 = i * Time.fixedDeltaTime * 5;
-            segments[i] = segments[0] + segVelocity * time2 + 0.5f * Physics2D.gravity * Mathf.Pow(time2, 2);
+            segments[i] = segments[0] + segVelocity * time2 + 0.5f * BirdToThrow.GetComponent<Bird>().Gravity * Mathf.Pow(time2, 2);
+
+            //Debug.Log("Gravity"+Physics2D.gravity);
         }
 
         TrajectoryLineRenderer.SetVertexCount(segmentCount);

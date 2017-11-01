@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private List<GameObject> Bricks;
     private List<GameObject> Birds;
     private List<GameObject> Pigs;
+   // private LevelManeger levelManedger;
 
     // Use this for initialization
     void Start()
@@ -27,6 +28,10 @@ public class GameManager : MonoBehaviour
         //unsubscribe and resubscribe from the event
         //this ensures that we subscribe only once
         slingshot.BirdThrown -= Slingshot_BirdThrown; slingshot.BirdThrown += Slingshot_BirdThrown;
+
+        //  if(levelManedger == null)
+        // levelManedger = new LevelManeger();
+        
     }
 
 
@@ -69,9 +74,25 @@ public class GameManager : MonoBehaviour
             //in a normal game, we would show the "Won" screen 
             //and on tap the user would go to the next level
             case GameState.Won:
+                // Application.LoadLevel();
+                if (Input.GetMouseButtonUp(0))
+                {
+                    
+                   LevelManeger.Instance.plasLevel();
+                    Debug.Log("Loaded level" + LevelManeger.Instance.indexLEvel);
+                    SceneManager.LoadScene(LevelManeger.Instance.indexLEvel);
+                   
+               
+
+
+                }
+
+                break;
+
             case GameState.Lost:
                 if (Input.GetMouseButtonUp(0))
                 {
+                    Debug.Log("Game lost");
                     Application.LoadLevel(Application.loadedLevel);
                 }
                 break;

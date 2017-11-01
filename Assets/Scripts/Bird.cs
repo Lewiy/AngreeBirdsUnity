@@ -5,10 +5,12 @@ using Assets.Scripts;
 [RequireComponent(typeof(Rigidbody2D))]
 public  class Bird : MonoBehaviour
 {
-
+    public virtual  float ThrowSpeed { get { return 10; } }
+    public virtual Vector2 Gravity { get { return Physics2D.gravity; } }
     // Use this for initialization
     void Start()
     {
+        
         //trailrenderer is not visible until we throw the bird
         GetComponent<TrailRenderer>().enabled = false;
         GetComponent<TrailRenderer>().sortingLayerName = "Foreground";
@@ -19,7 +21,10 @@ public  class Bird : MonoBehaviour
         State = BirdState.BeforeThrown;
     }
 
-
+   /* public float ThrowSpeed()
+    {
+        return 20;
+    }*/
 
     void FixedUpdate()
     {
@@ -33,7 +38,7 @@ public  class Bird : MonoBehaviour
         }
     }
 
-    public void OnThrow()
+    public virtual void OnThrow()
     {
         //play the sound
         GetComponent<AudioSource>().Play();
