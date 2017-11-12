@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine.SceneManagement;
 using System.IO;
 using System.Xml.Serialization;
-using UnityEditor;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -19,9 +19,11 @@ public class GameManager : MonoBehaviour
     private List<GameObject> Birds;
     private List<GameObject> Pigs;
     private List<GameObject> GameObjectForSaving;
-   
-    SaveScene stateSaving = new SaveScene();
-    private SaveScene state = new SaveScene();
+    // private LevelManeger levelManedger;
+
+    // Use this for initialization
+
+    private SaveScene state;
     private string dataPath;
     private string dataPathProgressSavior;
     void Start()
@@ -30,7 +32,15 @@ public class GameManager : MonoBehaviour
         dataPath = Application.dataPath + "/Saves/SavedData.xml";
         dataPathProgressSavior = Application.dataPath + "/Saves/SavedDataProgress.xml";
 
+        if (File.Exists(dataPath))  // если файл сохранения уже существует
+          state = Saver.DeXml(dataPath);
 
+        Debug.Log("Element from xml - " + state.objects[2].Name);
+        GenerateFromXML();
+
+        CurrentGameState = GameState.Start;
+        slingshot.enabled = false;
+        //find all relevant game objects
         Bricks = new List<GameObject>(GameObject.FindGameObjectsWithTag("Brick"));
         Birds = new List<GameObject>(GameObject.FindGameObjectsWithTag("Bird"));
         Pigs = new List<GameObject>(GameObject.FindGameObjectsWithTag("Pig"));
@@ -40,139 +50,64 @@ public class GameManager : MonoBehaviour
         GameObjectForSaving.AddRange(Bricks);
         GameObjectForSaving.AddRange(Birds);
         GameObjectForSaving.AddRange(Pigs);
-
-
-        if (LevelManeger.Instance.continueGameFlag == 1)
-            contioueGame();
-
-        CurrentGameState = GameState.Start;
-        slingshot.enabled = false;
-        
+        //unsubscribe and resubscribe from the event
+        //this ensures that we subscribe only once
         slingshot.BirdThrown -= Slingshot_BirdThrown; slingshot.BirdThrown += Slingshot_BirdThrown;
 
-     
+        //  if(levelManedger == null)
+        // levelManedger = new LevelManeger();
         
     }
 
-    void contioueGame()
-    {
-        destroyBeforeLoading();
 
-        Birds.Clear();
-        Bricks.Clear();
-        Pigs.Clear();
-
-        if (File.Exists(dataPath))  
-            state = Saver.DeXml(dataPath);
-
-        GenerateFromXML();
-
-    }
-
-    void destroyBeforeLoading()
-    {
-        foreach (GameObject destroyable in  GameObjectForSaving) {
-
-            DestroyImmediate(destroyable);
-        }
-    }
     void GenerateFromXML()
     {
         foreach (SavObject felt in state.objects)
-        {  
-
-            Debug.Log("Instanciate object - " + "Prefabs/" + felt.name);
-
-            GameObject prefab = new GameObject();
-
-             felt.inst = prefab = Instantiate(Resources.Load("Prefabs/" + felt.name), felt.position, felt.rotation) as GameObject;
-
-            prefab.name = felt.name;
-
-            prefab.transform.parent = transform;
-
-            prefab.gameObject.tag = felt.typeOfPrefub;
-
-            Debug.Log("Tags  - " + prefab.gameObject.tag);
-
+        {  // для всех предметов в комнате
+            felt.inst = Instantiate(Resources.Load(felt.Name), felt.position, Quaternion.identity) as GameObject;
           
-            felt.Estate(); 
+            // овеществляем их
+            Birds.Add(Instantiate(Resources.Load(felt.Name), felt.position, Quaternion.identity) as GameObject);
+            felt.Estate(); // и задаём дополнительные параметры
         }
-
-        Birds.Clear();
-        Bricks.Clear();
-        Pigs.Clear();
-        Debug.Log("Birds count  - " + Birds.Count);
-
-        Bricks = new List<GameObject>(GameObject.FindGameObjectsWithTag("Brick"));
-        Birds = new List<GameObject>(GameObject.FindGameObjectsWithTag("Bird"));
-
-        Pigs = new List<GameObject>(GameObject.FindGameObjectsWithTag("Pig"));
-
-
-        GameObjectForSaving.AddRange(Bricks);
-        GameObjectForSaving.AddRange(Birds);
-        GameObjectForSaving.AddRange(Pigs);
-
-        Debug.Log("Birds count  - " + Birds.Count);
     }
 
     void ReadInfForSerial()
     {
-       
+        state = new SaveScene();
         foreach (GameObject gameObject in GameObjectForSaving)
-   
         {
             if (gameObject != null)
             {
-
-              
-                  SavObject savObject;
-
-                  string nameOfPrefab = PrefabUtility.GetPrefabParent(gameObject) + "";
-                if (nameOfPrefab == "")
-                    nameOfPrefab = gameObject.name;
-                else 
-
-                nameOfPrefab = nameOfPrefab.Substring(0, nameOfPrefab.IndexOf(" "));
-                
-                Debug.Log("Name of prefub - " + nameOfPrefab);
-             
-               
+                SavObject savObject;
                 switch (gameObject.tag)
                 {
                     case "Bird":
-                        savObject = new BirdSaver(nameOfPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), 
-                           gameObject.transform.rotation, gameObject.tag, gameObject.tag);
+                        savObject = new BirdSaver(gameObject.tag, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), gameObject.name);
                         break;
                     case "Pig":
-                        savObject = new PigSaver(nameOfPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z),
-                              gameObject.transform.rotation, gameObject.tag, gameObject.tag);
+                        savObject = new PigSaver(gameObject.tag, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), gameObject.name);
                         break;
                     case "Brick":
-                        savObject = new BrickSaver(nameOfPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z),
-                              gameObject.transform.rotation, gameObject.tag, gameObject.tag);
+                        savObject = new BrickSaver(gameObject.tag, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), gameObject.name);
                         break;
                     default:
-                        savObject = new BrickSaver(nameOfPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z),
-                              gameObject.transform.rotation, gameObject.tag, gameObject.tag);
+                        savObject = new BrickSaver(gameObject.tag, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), gameObject.name);
                         break;
                 }
                 
                 savObject.inst = gameObject;
 
+                state.AddItem(savObject);
 
-                Debug.Log("savObject - " + savObject);
-                stateSaving.AddItem(savObject);
 
 
             }
               
         }
-
-        Debug.Log("Count objects saving - " + stateSaving.objects.Count);
     }
 
+    // Update is called once per frame
     void Update()
     {
 
@@ -180,8 +115,8 @@ public class GameManager : MonoBehaviour
         {
 
             ReadInfForSerial();
-            stateSaving.Update(); 
-            Saver.SaveXml(stateSaving, dataPath);
+            state.Update(); // вызов обновления state
+            Saver.SaveXml(state, dataPath);
 
             SaverObject progressObj = new SaverObject();
             progressObj.Number = Application.loadedLevel;
@@ -193,17 +128,21 @@ public class GameManager : MonoBehaviour
         switch (CurrentGameState)
         {
             case GameState.Start:
-               
+                //if player taps, begin animating the bird 
+                //to the slingshot
                 if (Input.GetMouseButtonUp(0))
                 {
                     AnimateBirdToSlingshot();
                 }
                 break;
             case GameState.BirdMovingToSlingshot:
-                
+                //do nothing
                 break;
             case GameState.Playing:
-               
+                //if we have thrown a bird
+                //and either everything has stopped moving
+                //or there has been 5 seconds since we threw the bird
+                //animate the camera to the start position
                 if (slingshot.slingshotState == SlingshotState.BirdFlying &&
                     (BricksBirdsPigsStoppedMoving() || Time.time - slingshot.TimeSinceThrown > 5f))
                 {
@@ -212,16 +151,21 @@ public class GameManager : MonoBehaviour
                     CurrentGameState = GameState.BirdMovingToSlingshot;
                 }
                 break;
-           
+            //if we have won or lost, we will restart the level
+            //in a normal game, we would show the "Won" screen 
+            //and on tap the user would go to the next level
             case GameState.Won:
-                
+                // Application.LoadLevel();
                 if (Input.GetMouseButtonUp(0))
                 {
                     
                    LevelManeger.Instance.plasLevel();
-                    LevelManeger.Instance.continueGameFlag = 0;
                     Debug.Log("Loaded level" + LevelManeger.Instance.indexLEvel);
                     SceneManager.LoadScene(LevelManeger.Instance.indexLEvel);
+                   
+               
+
+
                 }
 
                 break;
@@ -238,19 +182,30 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    /// <summary>
+    /// A check whether all Pigs are null
+    /// i.e. they have been destroyed
+    /// </summary>
+    /// <returns></returns>
     private bool AllPigsDestroyed()
     {
         return Pigs.All(x => x == null);
     }
 
+    /// <summary>
+    /// Animates the camera to the original location
+    /// When it finishes, it checks if we have lost, won or we have other birds
+    /// available to throw
+    /// </summary>
     private void AnimateCameraToStartPosition()
     {
         float duration = Vector2.Distance(Camera.main.transform.position, cameraFollow.StartingPosition) / 10f;
         if (duration == 0.0f) duration = 0.1f;
-
+        //animate the camera to start
         Camera.main.transform.positionTo
             (duration,
-            cameraFollow.StartingPosition). 
+            cameraFollow.StartingPosition). //end position
             setOnCompleteHandler((x) =>
                         {
                             cameraFollow.IsFollowing = false;
@@ -258,47 +213,59 @@ public class GameManager : MonoBehaviour
                             {
                                 CurrentGameState = GameState.Won;
                             }
-                        
+                            //animate the next bird, if available
                             else if (currentBirdIndex == Birds.Count - 1)
                             {
-                               
+                                //no more birds, go to finished
                                 CurrentGameState = GameState.Lost;
                             }
                             else
                             {
                                 slingshot.slingshotState = SlingshotState.Idle;
-                              
+                                //bird to throw is the next on the list
                                 currentBirdIndex++;
                                 AnimateBirdToSlingshot();
                             }
                         });
     }
-     
-   
+
+    /// <summary>
+    /// 
+    /// Animates the bird from the waiting position to the slingshot
+    /// </summary>
     void AnimateBirdToSlingshot()
     {
         CurrentGameState = GameState.BirdMovingToSlingshot;
         Birds[currentBirdIndex].transform.positionTo
             (Vector2.Distance(Birds[currentBirdIndex].transform.position / 10,
-            slingshot.BirdWaitPosition.transform.position) / 10, 
-            slingshot.BirdWaitPosition.transform.position). 
+            slingshot.BirdWaitPosition.transform.position) / 10, //duration
+            slingshot.BirdWaitPosition.transform.position). //final position
                 setOnCompleteHandler((x) =>
                         {
                             x.complete();
-                            x.destroy(); 
+                            x.destroy(); //destroy the animation
                             CurrentGameState = GameState.Playing;
-                            slingshot.enabled = true; 
+                            slingshot.enabled = true; //enable slingshot
+                            //current bird is the current in the list
                             slingshot.BirdToThrow = Birds[currentBirdIndex];
                         });
     }
 
+    /// <summary>
+    /// Event handler, when the bird is thrown, camera starts following it
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void Slingshot_BirdThrown(object sender, System.EventArgs e)
     {
         cameraFollow.BirdToFollow = Birds[currentBirdIndex].transform;
         cameraFollow.IsFollowing = true;
     }
 
- 
+    /// <summary>
+    /// Check if all birds, pigs and bricks have stopped moving
+    /// </summary>
+    /// <returns></returns>
     bool BricksBirdsPigsStoppedMoving()
     {
         foreach (var item in Bricks.Union(Birds).Union(Pigs))
@@ -312,28 +279,32 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-   
+    /// <summary>
+    /// </summary>
+    /// <param name="screenWidth"></param>
+    /// <param name="screenHeight"></param>
     public static void AutoResize(int screenWidth, int screenHeight)
     {
         Vector2 resizeRatio = new Vector2((float)Screen.width / screenWidth, (float)Screen.height / screenHeight);
         GUI.matrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, new Vector3(resizeRatio.x, resizeRatio.y, 1.0f));
     }
 
+    /// <summary>
+    /// Shows relevant GUI depending on the current game state
+    /// </summary>
     void OnGUI()
     {
-        GUI.contentColor = Color.red;
-        
         AutoResize(800, 480);
         switch (CurrentGameState)
         {
             case GameState.Start:
-                GUI.Label(new Rect(300, 250, 400, 200), "Tap the screen to start");
+                GUI.Label(new Rect(0, 150, 200, 100), "Tap the screen to start");
                 break;
             case GameState.Won:
-                GUI.Label(new Rect(300, 250, 400, 200), "You won! Tap the screen to restart");
+                GUI.Label(new Rect(0, 150, 200, 100), "You won! Tap the screen to restart");
                 break;
             case GameState.Lost:
-                GUI.Label(new Rect(300, 250, 400, 200), "You lost! Tap the screen to restart");
+                GUI.Label(new Rect(0, 150, 200, 100), "You lost! Tap the screen to restart");
                 break;
             default:
                 break;

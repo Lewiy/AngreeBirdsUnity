@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<RoomState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Furniture>
+    <FurnitureObject>
+      <Type>Bird</Type>
+      <Position>
+        <x>-5.41281176</x>
+        <y>-2.11828</y>
+        <z>0</z>
+      </Position>
+    </FurnitureObject>
+    <FurnitureObject>
+      <Type>Bird</Type>
+      <Position>
+        <x>-5.88</x>
+        <y>-3.34</y>
+        <z>0</z>
+      </Position>
+    </FurnitureObject>
+  </Furniture>
+</RoomState>

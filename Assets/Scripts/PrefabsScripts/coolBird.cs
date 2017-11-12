@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class coolBird : Bird {
-
+    public string Type { get { return "CoolBird"; } }
     public override float ThrowSpeed
     {
         get

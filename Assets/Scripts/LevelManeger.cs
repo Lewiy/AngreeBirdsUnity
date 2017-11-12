@@ -7,6 +7,8 @@ public class LevelManeger
 
     public int indexLEvel;
 
+    public int continueGameFlag = 0;
+
     public LevelManeger()
     {
         indexLEvel = 2;
@@ -14,9 +16,7 @@ public class LevelManeger
 
     public void plasLevel()
     {
-        
-
-
+       
         indexLEvel = indexLEvel + 1;
         Debug.Log("Plas level" + indexLEvel);
         if (indexLEvel == 5)
