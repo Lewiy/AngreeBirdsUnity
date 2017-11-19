@@ -4,19 +4,19 @@
     <FurnitureObject xsi:type="Brick">
       <Type>INGAME_BLOCKS_WOOD_1_24</Type>
       <Position>
-        <x>11.4595165</x>
-        <y>-3.62145877</y>
+        <x>10.914711</x>
+        <y>-3.43044424</y>
         <z>0</z>
       </Position>
       <Rotation>
         <x>0</x>
         <y>0</y>
-        <z>-0.0014327626</z>
-        <w>0.999999</w>
+        <z>0.968896</z>
+        <w>-0.247468412</w>
         <eulerAngles>
           <x>0</x>
           <y>0</y>
-          <z>359.835815</z>
+          <z>208.6555</z>
         </eulerAngles>
       </Rotation>
       <TypeOfPrefub>Brick</TypeOfPrefub>
@@ -25,149 +25,170 @@
     <FurnitureObject xsi:type="Brick">
       <Type>INGAME_BLOCKS_WOOD_1_24</Type>
       <Position>
-        <x>12.58026</x>
-        <y>-3.62468624</y>
+        <x>7.59005451</x>
+        <y>-3.309877</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>0.706304</z>
+        <w>0.70790863</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>89.86999</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>11.43832</x>
+        <y>-3.621401</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>-0.00143252593</z>
+        <w>0.999999</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>359.835846</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>14.6706123</x>
+        <y>-3.30658984</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>0.6997313</z>
+        <w>0.7144062</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>88.8109</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>6.057242</x>
+        <y>-3.305499</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>0.706014037</z>
+        <w>0.708197832</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>89.82305</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>6.85310364</x>
+        <y>-3.30781984</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>0.706020653</z>
+        <w>0.7081913</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>89.82412</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>13.5328455</x>
+        <y>-3.30233741</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>0.5237548</z>
+        <w>0.851869166</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>63.1689034</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>16.8840847</x>
+        <y>-3.62301683</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>-0.00141399517</z>
+        <w>0.999999</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>359.837982</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Brick</TypeOfPrefub>
+      <TypeBrick>Brick</TypeBrick>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Brick">
+      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
+      <Position>
+        <x>6.7770133</x>
+        <y>-2.76780748</y>
         <z>0</z>
       </Position>
       <Rotation>
         <x>0</x>
         <y>0</y>
         <z>0.999999</z>
-        <w>0.00143151276</w>
+        <w>0.00142482063</w>
         <eulerAngles>
           <x>0</x>
           <y>0</y>
-          <z>179.835953</z>
+          <z>179.836731</z>
         </eulerAngles>
       </Rotation>
       <TypeOfPrefub>Brick</TypeOfPrefub>
       <TypeBrick>Brick</TypeBrick>
-    </FurnitureObject>
-    <FurnitureObject xsi:type="Brick">
-      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
-      <Position>
-        <x>15.2090807</x>
-        <y>-3.620742</y>
-        <z>0</z>
-      </Position>
-      <Rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0.0037886186</z>
-        <w>0.999992847</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0.434144765</z>
-        </eulerAngles>
-      </Rotation>
-      <TypeOfPrefub>Brick</TypeOfPrefub>
-      <TypeBrick>Brick</TypeBrick>
-    </FurnitureObject>
-    <FurnitureObject xsi:type="Brick">
-      <Type>INGAME_BLOCKS_WOOD_1_25</Type>
-      <Position>
-        <x>17.0073338</x>
-        <y>-3.235094</y>
-        <z>0</z>
-      </Position>
-      <Rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>-0.968873</z>
-        <w>-0.247558415</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>151.333847</z>
-        </eulerAngles>
-      </Rotation>
-      <TypeOfPrefub>Brick</TypeOfPrefub>
-      <TypeBrick>Brick</TypeBrick>
-    </FurnitureObject>
-    <FurnitureObject xsi:type="Brick">
-      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
-      <Position>
-        <x>6.057245</x>
-        <y>-3.30538845</y>
-        <z>0</z>
-      </Position>
-      <Rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0.705884635</z>
-        <w>0.7083268</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>89.80211</z>
-        </eulerAngles>
-      </Rotation>
-      <TypeOfPrefub>Brick</TypeOfPrefub>
-      <TypeBrick>Brick</TypeBrick>
-    </FurnitureObject>
-    <FurnitureObject xsi:type="Brick">
-      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
-      <Position>
-        <x>7.43599749</x>
-        <y>-3.6249752</y>
-        <z>0</z>
-      </Position>
-      <Rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>-0.00137846242</z>
-        <w>0.999999046</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>359.842041</z>
-        </eulerAngles>
-      </Rotation>
-      <TypeOfPrefub>Brick</TypeOfPrefub>
-      <TypeBrick>Brick</TypeBrick>
-    </FurnitureObject>
-    <FurnitureObject xsi:type="Brick">
-      <Type>INGAME_BLOCKS_WOOD_1_24</Type>
-      <Position>
-        <x>16.8252964</x>
-        <y>-3.62269</y>
-        <z>0</z>
-      </Position>
-      <Rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>-0.00143148424</z>
-        <w>0.999999</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>359.835968</z>
-        </eulerAngles>
-      </Rotation>
-      <TypeOfPrefub>Brick</TypeOfPrefub>
-      <TypeBrick>Brick</TypeBrick>
-    </FurnitureObject>
-    <FurnitureObject xsi:type="Bird">
-      <Type>redBird</Type>
-      <Position>
-        <x>-5.41281128</x>
-        <y>-2.11828</y>
-        <z>0</z>
-      </Position>
-      <Rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-        <w>1</w>
-        <eulerAngles>
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
-        </eulerAngles>
-      </Rotation>
-      <TypeOfPrefub>Bird</TypeOfPrefub>
-      <TypeBird>Bird</TypeBird>
     </FurnitureObject>
     <FurnitureObject xsi:type="Bird">
       <Type>redBird</Type>
@@ -193,19 +214,19 @@
     <FurnitureObject xsi:type="Pig">
       <Type>Pig</Type>
       <Position>
-        <x>16.034296</x>
-        <y>-3.30926251</y>
+        <x>8.518323</x>
+        <y>-3.29908562</y>
         <z>0</z>
       </Position>
       <Rotation>
         <x>0</x>
         <y>0</y>
-        <z>-0.7174259</z>
-        <w>0.6966348</w>
+        <z>-0.10788355</z>
+        <w>0.9941635</w>
         <eulerAngles>
           <x>0</x>
           <y>0</y>
-          <z>268.315277</z>
+          <z>347.613342</z>
         </eulerAngles>
       </Rotation>
       <TypeOfPrefub>Pig</TypeOfPrefub>
@@ -214,19 +235,103 @@
     <FurnitureObject xsi:type="Pig">
       <Type>Pig</Type>
       <Position>
-        <x>14.0839872</x>
-        <y>-3.32012224</y>
+        <x>15.3846</x>
+        <y>-3.30421257</y>
         <z>0</z>
       </Position>
       <Rotation>
         <x>0</x>
         <y>0</y>
-        <z>0.99117893</z>
-        <w>-0.13253057</w>
+        <z>-0.0410450846</z>
+        <w>0.9991573</w>
         <eulerAngles>
           <x>0</x>
           <y>0</y>
-          <z>195.2317</z>
+          <z>355.295258</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Pig</TypeOfPrefub>
+      <TypePig>Pig</TypePig>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Pig">
+      <Type>Pig</Type>
+      <Position>
+        <x>14.1336765</x>
+        <y>-3.29995561</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>-0.1645545</z>
+        <w>0.986368</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>341.057281</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Pig</TypeOfPrefub>
+      <TypePig>Pig</TypePig>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Pig">
+      <Type>Pig</Type>
+      <Position>
+        <x>12.9143562</x>
+        <y>-3.31843162</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>-0.9097937</z>
+        <w>0.415060878</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>229.0463</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Pig</TypeOfPrefub>
+      <TypePig>Pig</TypePig>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Pig">
+      <Type>Pig</Type>
+      <Position>
+        <x>15.0408239</x>
+        <y>-2.528379</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>-0.05123058</z>
+        <w>0.9986869</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>354.126831</z>
+        </eulerAngles>
+      </Rotation>
+      <TypeOfPrefub>Pig</TypeOfPrefub>
+      <TypePig>Pig</TypePig>
+    </FurnitureObject>
+    <FurnitureObject xsi:type="Pig">
+      <Type>Pig</Type>
+      <Position>
+        <x>6.797561</x>
+        <y>-2.2218554</y>
+        <z>0</z>
+      </Position>
+      <Rotation>
+        <x>0</x>
+        <y>0</y>
+        <z>-0.00265299971</z>
+        <w>0.9999965</w>
+        <eulerAngles>
+          <x>0</x>
+          <y>0</y>
+          <z>359.695984</z>
         </eulerAngles>
       </Rotation>
       <TypeOfPrefub>Pig</TypeOfPrefub>

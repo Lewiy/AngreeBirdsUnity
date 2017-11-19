@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     private SaveScene state = new SaveScene();
     private string dataPath;
     private string dataPathProgressSavior;
+
+    private MyXmlSerializer myXmlSerializer = new MyXmlSerializer(); // Creating own storage system
     void Start()
     {
 
@@ -62,8 +64,12 @@ public class GameManager : MonoBehaviour
         Bricks.Clear();
         Pigs.Clear();
 
-        if (File.Exists(dataPath))  
-            state = Saver.DeXml(dataPath);
+        if (File.Exists(dataPath))
+        {
+         
+            state = Saver.DeXml(myXmlSerializer,dataPath); // Deserializating with own type of storage
+        }
+  
 
         GenerateFromXML();
 
@@ -180,11 +186,15 @@ public class GameManager : MonoBehaviour
         {
 
             ReadInfForSerial();
-            stateSaving.Update(); 
-            Saver.SaveXml(stateSaving, dataPath);
+
+            stateSaving.Update();
+
+            Saver.SaveXml(myXmlSerializer, stateSaving, dataPath); // Saving with own type of storage
 
             SaverObject progressObj = new SaverObject();
+
             progressObj.Number = Application.loadedLevel;
+
             SaverProgress.SaveXml(progressObj, dataPathProgressSavior);
 
             SceneManager.LoadScene(1);
