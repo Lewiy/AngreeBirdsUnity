@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class coolBird : Bird {
-    public string Type { get { return "CoolBird"; } }
+
+    public string nameBird;
+    public float throwSpeedCoolBird;
+    public Vector2 gravity;
+    public string Type { get { return nameBird; } }
     public override float ThrowSpeed
     {
         get
         {
-            return 6;
+            return throwSpeedCoolBird;
         }
     }
 
@@ -16,7 +20,7 @@ public class coolBird : Bird {
     {
         get
         {
-            return new Vector2(0,-9);
+            return gravity;
         }
     }
    

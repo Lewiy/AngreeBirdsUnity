@@ -5,10 +5,16 @@ using Assets.Scripts;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Bird : MonoBehaviour
 {
-    public virtual float ThrowSpeed { get { return 10; } }
-    public virtual Vector2 Gravity { get { return Physics2D.gravity; } }
 
-    private string birdType { get { return "Bird" ; } }
+
+    public float throwSpeedBird;
+    public string birdTypeName;
+    public Vector2 gravityBird; 
+
+    public virtual float ThrowSpeed { get { return throwSpeedBird; } }
+    public virtual Vector2 Gravity { get { return gravityBird; } }
+
+    private string birdType { get { return birdTypeName; } }
 // Use this for initialization
 void Start()
     {
