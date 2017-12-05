@@ -135,7 +135,8 @@ public class GameManager : MonoBehaviour
               
                   SavObject savObject;
 
-                  string nameOfPrefab = PrefabUtility.GetPrefabParent(gameObject) + "";
+                  string nameOfPrefab =
+                 PrefabUtility.GetPrefabParent(gameObject)  + "";
                 if (nameOfPrefab == "")
                     nameOfPrefab = gameObject.name;
                 else 

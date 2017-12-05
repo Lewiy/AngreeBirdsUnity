@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.SceneManagement;
-using System.IO;
+
 public class menu : MonoBehaviour {
 
     private SaverObject state;
