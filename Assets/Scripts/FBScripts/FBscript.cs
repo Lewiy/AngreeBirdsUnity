@@ -124,4 +124,10 @@ public class FBscript : MonoBehaviour {
     {
         FacebookManager.Instance.Share();
     }
+
+    public void Invite()
+    {
+        FacebookManager.Instance.Invite();
+    }
+
 }

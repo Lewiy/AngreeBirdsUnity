@@ -148,4 +148,32 @@ public class FacebookManager : MonoBehaviour
             }
         }
     }
+
+    public void Invite()
+    {
+        FB.Mobile.AppInvite(
+            new Uri(AppLinkURL),
+             new Uri("https://blog.addthiscdn.com/wp-content/uploads/2015/11/logo-facebook.png"),
+             InviteCallback);
+    }
+
+    void InviteCallback(IResult result)
+    {
+        if (result.Cancelled)
+        {
+            Debug.Log("Invite cancelled");
+        }
+        else
+        {
+            if (!string.IsNullOrEmpty(result.Error))
+            {
+                Debug.Log("Error on invite");
+            }
+            else if (!string.IsNullOrEmpty(result.RawResult))
+            {
+                Debug.Log("Success on invite");
+            }
+        }
+    }
+
 }
