@@ -112,13 +112,6 @@ public class FBscript : MonoBehaviour {
 
         DealWithFBMenus(FB.IsLoggedIn);
     }
-    /*void Update()
-    {
-        if(FacebookManager.Instance.ProfileName == null)
-        {
-
-        }
-    }*/
 
     public void Share()
     {
